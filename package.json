@@ -1,0 +1,36 @@
+{
+  "name": "scroll-helpers",
+  "version": "0.0.1",
+  "description": "Utilities to animate things at scroll",
+  "main": "./index.js",
+  "module": "./dist/index.esm.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinzdef/scroll-helpers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinzdef/scroll-helpers/issues"
+  },
+  "homepage": "https://github.com/vinzdef/scroll-helpers#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@okiba/component": "^1.0.9",
+    "@okiba/dom": "^1.0.9",
+    "@okiba/event-emitter": "^1.0.8",
+    "@okiba/math": "^1.0.8",
+    "rollup": "^1.25.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-resolve": "0.0.1-predev.1"
+  }
+}
